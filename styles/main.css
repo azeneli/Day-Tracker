@@ -1,1 +1,31 @@
 /* CURRENTLY IN: styles/main.css */
+
+/*  COLORS 
+*   #4EC094 
+*   #7bb7fa
+*/
+
+html {
+	font-size: 14px;
+	font-family: sans-serif, helvetica;		
+}
+
+.content {
+	width: 100%;
+	height: auto;
+	background-color: #7bb7fa;
+}
+
+.title {
+	font-size: 5rem;
+	color: #fff;
+	text-align: center;
+	margin: 3% auto;
+}
+
+.dayTracker {
+	width: 50%;
+	margin: 5% auto;
+	padding: 5rem;
+	background-color: #4EC094;	
+} 
