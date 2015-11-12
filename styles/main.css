@@ -25,19 +25,19 @@ html {
 	margin: 0 auto;
 }
 
-.title {
-	font-size: 5rem;
-	color: #fff;
-	text-align: center;
-	margin: 3% auto;
-}
-
 .dayTracker {
 	width: 50%;
 	min-height: 126px;
 	margin: 5% auto;
 	background-color: #4EC094;	
 } 
+
+.dayTracker__title {
+	font-size: 5rem;
+	color: #fff;
+	text-align: center;
+	margin: 3% auto;
+}
 
 .dayTracker--color {
 	color: white;
@@ -64,3 +64,10 @@ html {
 	width: 50%;
 	background-color: #1E2E3E;
 }
+
+.dayTracker__content {
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+}
+
