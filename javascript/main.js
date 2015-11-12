@@ -11,7 +11,7 @@
 		console.log( arrOfDays[0] );
 		console.log(today, ' - today ');
 
-		$(".test").append( '<p>' + today + '</p>' );
+		$(".js-day").append( '<p>' + today + '</p>' );
 	}
 
 	dayTracker();
@@ -22,7 +22,7 @@
 			, getMonth = months[ date.getMonth() ];
 
 		console.log(getMonth, ' - month ');
-		$(".test").append( '<p>' +  getMonth + '</p>' );
+		$(".js-month").append( '<p>' +  getMonth + '</p>' );
 	}
 	
 	monthTracker();
@@ -31,7 +31,7 @@
 		var date = new Date()
 			, year = date.getFullYear();	
 		console.log(year);
-		$(".test").append( '<p>' +  year + '</p>' );	
+		$(".js-year").append( '<p>' +  year + '</p>' );	
 	}
 
 	currYear();
