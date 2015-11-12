@@ -3,6 +3,10 @@
 /*  COLORS 
 *   #4EC094 
 *   #7bb7fa
+*   #D1625B
+*   #B33D40
+*   #507796
+*   #1E2E3E
 */
 
 html {
@@ -16,6 +20,11 @@ html {
 	background-color: #7bb7fa;
 }
 
+.content-holder {
+	width: 100%;
+	margin: 0 auto;
+}
+
 .title {
 	font-size: 5rem;
 	color: #fff;
@@ -25,7 +34,33 @@ html {
 
 .dayTracker {
 	width: 50%;
+	min-height: 126px;
 	margin: 5% auto;
-	padding: 5rem;
 	background-color: #4EC094;	
 } 
+
+.dayTracker--color {
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.dayTracker--spacing {
+	padding: 1rem 0 0 0;
+	margin: 0 auto;
+}
+
+.dayTracker__today {
+	width: 70%;
+	background-color: #D1625B;
+}
+
+.dayTracker__month {
+	width: 60%;
+	background-color: #507796;
+}
+
+.dayTracker__year {
+	width: 50%;
+	background-color: #1E2E3E;
+}
