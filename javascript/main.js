@@ -2,6 +2,12 @@
 
 (function(){ // protect da scope
 
+	/**
+		* @dayTracker
+		* @description - retrieves current year using getDay() method from Date Object and displays result to screen
+		* @return - returns current day
+	**/
+
 	function dayTracker(){
 		var date = new Date()
 			, arrOfDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
@@ -16,6 +22,12 @@
 
 	dayTracker();
 
+	/**
+		* @monthTracker
+		* @description - retrieves current year using getMonth() method from Date Object and displays result to screen
+		* @return - returns current month
+	**/	
+
 	function monthTracker(){
 		var date = new Date()
 		 	, months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
@@ -27,6 +39,12 @@
 	
 	monthTracker();
 
+	/**
+		* @mcurrYear
+		* @description - retrieves current year using getFullYear() method from Date Object and displays result to screen
+		* @return - returns current year
+	**/		
+
 	function currYear(){
 		var date = new Date()
 			, year = date.getFullYear();	
@@ -35,23 +53,5 @@
 	}
 
 	currYear();
-
-	 // var today = new Date();
-	 //    var dd = today.getDate();
-	 //    var mm = today.getMonth() + 1; //January is 0!
-
-	 //    var yyyy = today.getFullYear();
-
-	 //    	if( dd<10 ){
-	 //        	dd ='0'+ dd;
-	 //    	} 
-	 //    	if( mm<10 ){
-	 //        	mm ='0'+ mm;
-	 //    	} 
-
-	 //    var currDay = dd+'/'+mm+'/'+yyyy;
-   
-  
-  //   	$(".test").append( '<p>' +  currDay + '</p> ');
 
 })();
